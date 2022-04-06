@@ -24,17 +24,13 @@ body {
 .header h1 .seo {
   color: #d9dcd6;
 }
-
+/* created nav class */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-}
-
-.header nav ul {
-  list-style-type: none;
 }
 
 .header nav ul li {
@@ -75,7 +71,7 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* created benefits-container class for aside */
 .benefits-container {
   margin-right: 20px;
   padding: 20px;
@@ -97,8 +93,8 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
-.search-engine-optimization {
+/* rename to content-section */
+.content-section {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -107,51 +103,18 @@ p {
   color: #ffffff;
 }
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* got rid of repeats*/
+.content-section img {
   max-height: 200px;
 }
 
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* got rid of repeats */
+.content-section h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/* created footer class */
 .footer {
   padding: 30px;
   clear: both;
