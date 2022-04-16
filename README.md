@@ -10,7 +10,7 @@ Refactor a marketing agency website to use semantic HTML and make the website mo
 
 ## Deployed URL
 
-This is the link to the github repository below.
+This is the link to the github deployed page.
 
 [here](https://aosman0.github.io/marketing-agency-refactor/)
 
